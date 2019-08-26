@@ -11,8 +11,8 @@ int timezone = 8 * 3600;//中国+8
 int dst = 0;
 
 // Digital Pins
-#define CLK D5
-#define DIO D7
+#define CLK D0  //gpio 16
+#define DIO D4  //gpio 2
 #define TEST_DELAY   2000
 
 const uint8_t SEG_CONN[] = {
