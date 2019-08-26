@@ -1,9 +1,5 @@
 # arduino-tm1637-clock
 
-启动后，会出现一个名为ClockAP的热点。
-连接后，配置wifi。
-配置成功后，ClockAP热点就不存在了。于是时钟就出现了。
-
 在arduino的首选项里，填入以下内容，增加对esp8266的支持。
 ```
 https://arduino.esp8266.com/stable/package_esp8266com_index.json
